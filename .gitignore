@@ -1,0 +1,36 @@
+# --- C build artifacts ---
+*.o
+*.out
+*.exe
+*.a
+*.so
+*.dll
+*.dylib
+
+# --- Compiler intermediate outputs ---
+*.s
+*.i
+*.ii
+*.bc
+*.ll
+
+# --- macOS system files ---
+.DS_Store
+*.dSYM/
+
+# --- Temporary files ---
+*.tmp
+*.swp
+*.bak
+
+# --- Build directories ---
+build/
+dist/
+bin/
+obj/
+
+# --- Logs ---
+*.log
+
+# --- VSCode settings ---
+.vscode/
